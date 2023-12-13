@@ -57,7 +57,7 @@ for i in `seq 1 2`; do
         --name webVM$i \
         --nics webNic$i \
         --location $Location \
-        --image Ubuntu Server 20.04 LTS \
+        --image Win2019Datacenter \
         --size Standard_B2s \
         --availability-set portalAvailabilitySet \
         --generate-ssh-keys \
